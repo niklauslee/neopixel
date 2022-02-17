@@ -16,7 +16,7 @@ Here is a wiring example.
 | GND               | GND      |
 | GP0               | IN       |
 
-![wiring](https://github.com/niklauslee/neopixel/blob/main/images/wiring.jpg?raw=true)
+![wiring](https://github.com/niklauslee/neopixel/blob/main/images/wiring.png?raw=true)
 
 # Install
 
