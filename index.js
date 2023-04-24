@@ -33,12 +33,13 @@ class NeoPixel {
       pullThreshold: 24,
       fifoJoin: PIO.FIFO_JOIN_TX,
       sidesetBase: this.pin,
+      outShiftDir: PIO.SHIFT_LEFT,
     });
     this.sm.active(true);
   }
 
   color(r, g, b) {
-    return (b << 16) | (r << 8) | g;
+    return (g << 24) | (r << 16) | (b << 8);
   }
 
   setPixel(index, color) {
